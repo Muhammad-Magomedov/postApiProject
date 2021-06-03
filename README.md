@@ -98,7 +98,7 @@ PATCH /comments/:id
 
 ```
 |-- models
-    |-- Comment.js
+
 |-- routes
     |-- index.js (*)
     |-- comments.js 
