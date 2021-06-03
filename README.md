@@ -102,7 +102,7 @@ PATCH /comments/:id
 |-- models
     |-- Post.js
     |-- Category.js
-    |-- Comment.js
+    |-- comments.js
 |-- routes
     |-- index.js (*)
     |-- comments.js 
