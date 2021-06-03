@@ -1,0 +1,26 @@
+{
+  "name": "blog-api-challenge",
+  "version": "1.0.0",
+  "description": "## Summary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutaliev06/blog-api-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mutaliev06/blog-api-challenge/issues"
+  },
+  "homepage": "https://github.com/Mutaliev06/blog-api-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  }
+}
