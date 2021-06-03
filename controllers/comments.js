@@ -1,15 +1,6 @@
 const comments = require('../models/Comment')
 
 class commentController {
-  // async postComment(req, res) {
-  //   try {
-  //     const comments = await comments.find()
-  //     res.json(comments)
-  //
-  //   } catch (e) {
-  //     res.json(e.message)
-  //   }
-  // }
 
   async getCommentById (req,res) {
     try {
@@ -52,5 +43,6 @@ class commentController {
       res.json(e.message)
     }
   }
-
 }
+
+module.exports = new commentController()

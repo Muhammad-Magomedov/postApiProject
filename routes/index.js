@@ -1,10 +1,10 @@
 const { Router } = require('express');
-const router = Router();
+const router = Router()
 
-router.use('/categories', require('./categories'));
+router.use('/', require('./categories'));
 
-router.use('/comments', require('./comments'));
+router.use('/', require('./comments'));
 
-router.use('/posts', require('./posts'));
+router.use('/', require('./posts'));
 
-module.exports = router;
+module.exports = router
