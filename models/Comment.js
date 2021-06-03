@@ -8,3 +8,5 @@ const Comments = mongoose.Schema({
   updatedAt:Date
 
 })
+
+module.exports = mongoose.model("comment", Comments)
