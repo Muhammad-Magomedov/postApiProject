@@ -1,14 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const port = 3001;
+const port = require('./config/index');
+const url = require('./config/index');
 
 app.use(express.json);
 app.use(express.urlencoded({extended: true}));
 
 async function start () {
     try {
-        await mongoose.connect('mongodb+srv://Mutaliev:Intocode@cluster0.chyad.mongodb.net/blogApi', {
+        await mongoose.connect(url, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
